@@ -1,0 +1,803 @@
+     @font-face
+    {
+        font-family: lustra;
+        src: url(Lustra Text Regular.ttf);
+    }
+    .header
+            {
+                background-color: black;
+                width: 100%;
+                height: 137px;
+                position:fixed;
+                top: 0px;
+              }
+              .header.scrolled
+              {
+opacity: 0.5;
+background-color: blue;
+              }
+            .logo{
+                margin-left: 10px;
+                margin-top: -5px;
+        
+            }
+            .navi ul{
+                list-style-type: none;
+                text-align: end;
+                margin-top: -130px;
+                position: relative;
+              
+               
+            }
+            .navi ul li{
+                display: inline;
+                padding-left: 15px;
+                padding-right: 15px;
+                font-size: 22px;
+                font-family: lu;
+                font-weight: bolder;
+                position: relative;
+               
+               
+            }
+            .navi ul li a{
+                text-decoration: none;
+                color: white;
+                transition: all;
+                transition-duration: 1s;
+                
+            }
+          
+            .navi ul li :hover
+            { 
+            color: black;
+            background-color: white;
+              padding-left: 10px;
+              padding-right: 10px;
+              border-radius: 10px;
+             position: relative;
+        }
+
+            .searchmenu ul{
+                list-style-type: none;
+                text-align: end;
+                margin-top: 70px;
+                margin-right: 30px;
+               
+            }
+            .searchmenu ul li{
+                display: inline;
+                padding-left: 22px;
+                padding-right: 22px;
+                font-size: 22px;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                
+            }
+            .searchmenu ul li a{
+                text-decoration: none;
+                color: white;
+            }
+           .searchlogo ul{
+              
+             list-style-type: none;
+             margin-top: -100px;
+margin-left: 615px;
+
+
+           }
+           .searchlogo ul li{
+               display: inline;
+               margin-left: 105px;
+            
+           }
+           .banner
+           {
+               background-image: url(newfusioncars_files/carbanner.png);
+               height: 1000px;
+              width: 100%;
+              background-size: cover;
+              background-position: top;
+              margin-top: -90px;
+           }
+           .models
+           {
+               text-align: center;
+               margin-top: -200px;
+           }
+           .models h1
+           {
+               font-size: 50px;
+               font-weight: lighter;
+           }
+           .models h2
+           {
+               font-size: 80px;
+               font-weight: bolder;
+               margin-top: -25px;
+           }
+           .modelbox
+           {
+            height: 550px;
+                width: 90%;
+                background-color: rgb(245, 241, 241);
+                margin: -30PX auto auto auto;
+                
+
+           }
+           .smallbox
+           {   
+            display: grid;
+                grid-template-columns: auto auto auto auto auto auto ;
+                margin-left:30px;
+                }
+                .button
+                {
+                    margin-top: 30px;
+                    grid-gap: 30px;
+                    cursor: pointer;
+                    font-size: 20px;
+                    width: 220px;
+                    color: blue;
+                   background-color: white;
+                  border-color: white;
+                    border-radius: 10px;
+                }
+                .button:hover
+                {
+                    background-color: blue;
+                    color: white; 
+                  
+
+                }
+                .bigbox
+                {
+                   
+                    width: 90%;
+                    display: grid;
+                grid-template-columns: auto auto auto ;
+                margin-left: 35px;
+                margin-right: auto;
+                grid-gap: 50px;
+                margin-top: 40px;
+                
+
+                }
+                
+                .bigbox1
+                { height: 340px;
+                    background-color: rgb(255, 255, 255);
+                    transition:all;
+                transition-duration: 1s;
+                border-radius: 10px;
+                }
+                .bigbox1 img
+            {
+                border-radius: 10px 10px 0px 0px;
+            }
+                .bigbox1 img:hover
+                {
+                    transform: scale(1.2);
+                    border-radius: 10px;
+                }
+                .bigbox1 h1{
+                    font-size: 45px;
+                    text-align: center;
+                    margin-top: 10px;
+                }
+                .bigbox1 h2{
+                    font-size: 30px;
+                    text-align: center;
+                    margin-top: -10px;
+                    font-weight: lighter;
+                }
+                .bigbox1 a{
+                    text-decoration: none;
+                    color: black;
+                } 
+                .bigbox2
+                { height: 340px;
+                    background-color: rgb(255, 255, 255);
+                    transition:all;
+                transition-duration: 1s;
+                border-radius: 10px;
+                }
+                .bigbox2 img
+            {
+                border-radius: 10px 10px 0px 0px;
+            }
+                .bigbox2 img:hover
+                {
+                    transform: scale(1.2);
+                    border-radius: 10px;
+                }
+                .bigbox2 h1{
+                    font-size: 45px;
+                    text-align: center;
+                    margin-top: 10px;
+                }
+                .bigbox2 h2{
+                    font-size: 30px;
+                    text-align: center;
+                    margin-top: -10px;
+                    font-weight: lighter;
+                }
+                .bigbox2 a{
+                    text-decoration: none;
+                    color: black;
+                } 
+                
+                .bigbox3
+                { height: 340px;
+                    background-color: rgb(255, 255, 255);
+                    transition:all;
+                transition-duration: 1s;
+                border-radius: 10px;
+                }
+                .bigbox3 img
+            {
+                border-radius: 10px 10px 0px 0px;
+            }
+                .bigbox3 img:hover
+                {
+                    transform: scale(1.2);
+                    border-radius: 10px;
+                }
+                .bigbox3 h1{
+                    font-size: 45px;
+                    text-align: center;
+                    margin-top: 10px;
+                }
+                .bigbox3 h2{
+                    font-size: 30px;
+                    text-align: center;
+                    margin-top: -10px;
+                    font-weight: lighter;
+                }
+                .bigbox3 a{
+                    text-decoration: none;
+                    color: black;
+                } 
+                .next
+           {
+        margin-top: -300px;
+        margin-left: 1050px;
+           }
+           .line
+           {
+width: 80%;
+height: 1px;
+background-color: black;
+margin-top: 120px;
+margin-left:0px;
+           }
+           .line h1{
+               margin-left: 50px;
+               color: blue;
+           }
+           .allcar
+           {
+font-size: 40px;
+font-weight: bolder;
+margin-left: 25px;
+           }
+           .allcar a{
+               text-decoration: none;
+               color: black;
+           }
+           .brandbox{
+                background-color: rgb(245, 241, 241);
+               width: 85%;
+               height: 320px;
+               margin-top: 80px;
+               margin-left: auto;
+               margin-right: auto;
+           }
+           .brandbox h1{
+               font-size: 50px;
+               text-align: center;
+           }
+           .brand
+           {
+               display: grid;
+               grid-template-columns: auto auto auto auto;
+               margin-left: 15px;
+              
+           }
+           .brand img{
+               border-radius: 20px;
+           }
+           .button1
+           {
+               font-size: 20px;
+               font-weight: bolder;
+              color: red;
+               margin-left: 970px;
+               cursor: pointer;
+               margin-top: 10px;
+               border-radius: 5px;
+               border-style: none;
+               position: relative;
+               z-index: -100;
+              
+           }
+          
+         .latestcars
+         {
+            height: 450px;
+                width: 90%;
+                background-color: rgb(245, 241, 241);
+                margin: 90px auto auto auto;
+                font-size: 30px;
+                font-weight: bolder;
+               
+         }
+         .latestcars h1{
+             margin-left: 30px;
+             
+         }
+         .carbox
+                {
+                   
+                    width: 90%;
+                    display: grid;
+                grid-template-columns: auto auto auto ;
+                margin-left: 35px;
+                margin-right: auto;
+                grid-gap: 50px;
+                margin-top: -30px;
+                
+
+                }
+                
+                .carbox1
+                { height: 350px;
+                    background-color: rgb(255, 255, 255);
+                    transition:all;
+                transition-duration: 1s;
+                border-radius: 10px;
+                
+                }
+                .carbox1 img
+            {
+                border-radius: 10px 10px 0px 0px;
+            }
+        
+                .carbox1 img:hover
+                {
+                    transform: scale(1.2);
+                    border-radius: 10px;
+                }
+                .carbox1 h1{
+                    font-size: 45px;
+                    text-align: center;
+                    margin-top: -5px;
+                    margin-left: 5px;
+                }
+                .carbox1 h2{
+                    font-size: 30px;
+                    text-align: center;
+                    margin-top: -30px;
+                    font-weight: bolder;
+                }
+                .carbox1 h3{
+                    text-align: center;
+                    font-weight: lighter;
+                    margin-top: -12px;
+                }
+                .carbox1 a{
+                    text-decoration: none;
+                    color: black;
+                } 
+                .carbox2
+                { height: 350px;
+                    background-color: rgb(255, 255, 255);
+                    transition:all;
+                transition-duration: 1s;
+                border-radius: 10px;
+                }
+                .carbox2 img
+            {
+                border-radius: 10px 10px 0px 0px;
+            }
+                .carbox2 img:hover
+                {
+                    transform: scale(1.2);
+                    border-radius: 10px;
+                }
+                .carbox2 h1{
+                    font-size: 45px;
+              
+                    margin-top: -5px;
+                }
+                .carbox2 h2{
+                    font-size: 30px;
+                    text-align: center;
+                    margin-top: -30px;
+                    font-weight: bolder;
+                    margin-left: 5px;
+                }
+                .carbox2 h3{
+                    text-align: center;
+                    font-weight: lighter;
+                    margin-top: -12px;
+                }
+                .carbox2 a{
+                    text-decoration: none;
+                    color: black;
+                } 
+                
+                .carbox3
+                { height: 350px;
+                    background-color: rgb(255, 255, 255);
+                    transition:all;
+                transition-duration: 1s;
+                border-radius: 10px;
+                }
+                .carbox3 img
+            {
+                border-radius: 10px 10px 0px 0px;
+            }
+                .carbox3 img:hover
+                {
+                    transform: scale(1.2);
+                    border-radius: 10px;
+                }
+                .carbox3 h1{
+                    font-size: 45px;
+                    text-align: center;
+                    margin-top: -5px;
+                    margin-left: 20px;
+                }
+                .carbox3 h2{
+                    font-size: 35px;
+                    text-align: center;
+                    font-weight: lighter;
+                    margin-top: 47px;
+                }
+                .carbox3 a{
+                    text-decoration: none;
+                    color: black;
+                } 
+                .next
+           {
+        margin-top: -250px;
+        margin-left: 1050px;
+           }
+           .button2
+           {
+               cursor: pointer;
+               width: 100px;
+               font-size: 15px;
+               margin-top: 12px;
+              border-style: none;
+              background-color:gray;
+               margin-left:600px;
+               padding-top: 10px;
+               padding-bottom: 10px;
+               font-weight: bolder;
+               
+           }
+          
+           .banner2
+           {
+               background-image: url(newfusioncars_files/banner3.png);
+               height: 800px;
+               width: 100%;
+               background-size: cover;
+               
+           }
+           .button5
+           {
+               margin-top: 700px;
+               margin-left: 900px;
+               width: 300px;
+               font-size: 30px;    
+                cursor: pointer;    
+                border-radius: 20px;
+border-style: none;
+         }
+         .button5:hover
+         {
+            color: white;
+            background-color: black;
+    
+         }
+         .location
+         {
+            height: 500px;
+                width: 90%;
+                background-color: rgb(245, 241, 241);
+                margin: 90px auto auto auto;
+                font-size: 30px;
+                font-weight: bolder;
+               
+         }
+         .location h1{
+             margin-left: 30px;
+             
+         }
+         .place
+                {
+                  
+                    width: 90%;
+                    display: grid;
+                grid-template-columns: auto auto auto ;
+                margin-left: 25px;
+                margin-right: auto;
+                grid-gap: 50px;
+                margin-top: -30px;
+                
+
+                }
+                
+                .place1
+                {
+                    background-color: rgb(255, 255, 255);
+                    height: 370px;
+                    border-radius: 15px;
+                }
+                
+            .place1 h1{
+                font-size: 45px;
+                margin-top: -6px;
+                margin-left: 85px;
+
+            }
+            .place1 img
+            {
+                border-radius: 15px 15px 0px 0px;
+            }
+               
+                
+                
+                .place1 a{
+                    text-decoration: none;
+                    color: black;
+                    margin-top: 200px
+                    
+                } 
+                .place2
+                {
+                    background-color: rgb(255, 255, 255);
+                    height: 370px;
+                    border-radius: 15px;
+                }
+               
+                .place2 h1{
+                    font-size: 45px;
+              margin-left: 80px;
+                    margin-top: -5px;
+              
+                }
+                .place2 img
+            {
+                border-radius: 15px 15px 0px 0px;
+            }
+              
+                .place2 a{
+                    text-decoration: none;
+                    color: black;
+                } 
+                
+                .place3
+                {
+                    background-color: rgb(255, 255, 255);
+                    height: 370px;
+                    border-radius: 15px;
+                }
+                .place3 img
+            {
+                border-radius: 15px 15px 0px 0px;
+            }
+                
+                .place3 h1{
+                    font-size: 45px;
+                    text-align: center;
+                    margin-top: -1px;
+                    margin-left: -4px;
+                }
+               
+                .place3 a{
+                    text-decoration: none;
+                    color: rgb(17, 17, 17);
+                } 
+                .finance
+                {
+                    background-image: url(newfusioncars_files/finance.png);
+                    background-position: center;
+                    background-size: cover;
+                    height: 500px;
+                    width: 75%;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+                .finance h1
+                {
+                    font-size: 50px;
+                    font-weight: bolder;
+                    text-align: center;
+                    font-family: Arial, Helvetica, sans-serif;     
+                    margin-top: 40px;          
+                     }
+                     .dealer h1
+                     {
+                       text-align: center;
+                       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                       font-size: 35px;
+                     }
+                     .last{
+                         display: grid;
+                         grid-template-columns: auto auto auto auto;
+                        border: black;
+                        
+                         height: 40px;
+                         width: 100%;
+                         grid-gap: 10px;
+                        margin-left: 45px;
+                        
+                     }
+                     .dealership
+                   {
+                    padding: 12px;
+                    font-size: 20px;
+                    
+                   }
+                  
+                   .carbrand
+                   {
+                    padding: 12px;
+                    font-size: 20px;
+                   }
+                   .state
+                   {
+                    padding: 12px;
+                    font-size: 20px;
+                   }
+                   .city
+                   {
+                    padding: 12px;
+                    font-size: 20px;
+                   }
+                     .button0
+                     {
+                         background-color:gray;
+                         height: 70px;
+                         width: 250px;
+                         margin-top: 20px;
+                    margin-left: 571px;
+                         font-size: 40px;
+                         font-weight: bolder;
+                         border-radius: 10px;
+                         text-align: center;
+                        border-style: none;
+                        box-shadow: 0 5px 5px rgba(15,14,14, 0.7);;
+                         }
+                         .button0:hover
+                         {
+                             cursor: pointer;
+                       
+
+                         }
+                         .footer
+                         {
+                             height: 235px;
+                             width: 100%;
+                             background-color: rgb(1, 14, 18);
+                            
+                         }
+                         .footer h1
+                         {
+                             color: rgb(255, 255, 255);
+                             font-weight: lighter;
+                             margin-left: 25px;
+                             font-weight: bolder;
+                             text-decoration: underline;
+                             
+                         }     
+                         .quick ul
+                         {
+                         list-style-type: none;
+                        font-size: 25px;
+                         }   
+                         .quick ul li a
+                         {
+                            color: white;
+                            text-decoration: none;
+                         }        
+                         .quick h1
+                         {
+                             font-size: 40px;
+                         }  
+                         .explore ul
+                         {
+                             list-style-type: none;
+                             font-size: 25px;
+                         }     
+                         .explore ul li
+                         {
+                             margin-left: 305px;
+                         }
+                         .explore h1{
+                             margin-left: 330px;
+                             margin-top: -210px;
+                             font-weight: bolder;
+                             font-size: 40px;
+                         }
+                         .explore ul li a
+                         {
+                            color: white;
+                            text-decoration: none; 
+                         }
+                         .company ul
+                         {
+                             list-style-type: none;
+                             font-size: 25px;
+                         }     
+                         .company ul li
+                         {
+                             margin-left: 605px;
+                         }
+                         .company h1{
+                             margin-left: 625px;
+                             margin-top: -210px;
+                             font-weight: bolder;
+                             font-size: 40px;
+                         }
+                         .company ul li a
+                         {
+                            color: rgb(255, 255, 255);
+                            text-decoration: none; 
+                         }
+
+                         .social
+                         {
+                            
+                             margin-left: 900px;
+                             transition: all;
+                             transition-duration: 1s;
+                         }
+                         .social img:hover
+                         { transform: scale(1.2);
+
+                         }
+                         .social h1{
+                             margin-left: 127px;
+                             margin-top: -210px;
+                         }
+                         .foot{
+                             background-color: rgb(15, 5, 107);
+                             height: 50px;
+                             width: 90%;
+                             position: fixed;
+                         bottom: -20px;
+                         margin-top: 20px;
+                             margin-left: 60px;
+                            
+                            
+                             
+                         }
+                         .foot1{
+                             
+                             width: 100%;
+                             position:fixed;
+                             bottom: 0px;
+                            
+                             font-size: 20px;
+                             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                            margin-left: 90px;
+                            display: grid;
+                             grid-template-columns: auto auto auto;
+                         }
+                         .foot1 a
+                         {
+                             text-decoration: none;
+                             color:white;
+                         }
+                         .foot1 :hover
+                         {
+                             text-decoration:underline rgb(255, 255, 255);
+                             color: crimson;
+                         }
+                       
+
+   
